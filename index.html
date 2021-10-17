@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Поездка на дачу</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <form name="form" class="form">
+            <div class="form__title">Поездка на дачу</div>
+            <hr>
+            <div class="input__block">
+                <div class="input__element">
+                    <div class="input__title">Расстояние (км.):</div>
+                    <input type="text" name="distance" class="input__entry">
+                </div>
+                <div class="input__element">
+                    <div class="input__title">Цена бензина (руб./литр):</div>
+                    <input type="text" name="gasPrice" class="input__entry">
+                </div>
+                <div class="input__element">
+                    <div class="input__title">Потребление (на 100 км.):</div>
+                    <input type="text" name="consumption" class="input__entry">
+                </div>
+                <div class="input__element">
+                    <div class="input__title">Стоимость</div>
+                    <input type="text" name="price" class="input__out">
+                </div>
+                <div class="button__block">
+                    <button class="button" name="button" disabled>Вычислить</button>
+                </div>
+            </div>
+            <hr>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
