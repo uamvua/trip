@@ -1,2 +1,2 @@
 # trip
-https://uamvua.github.io/trip/
+https://vsbogatyr.github.io/trip/
